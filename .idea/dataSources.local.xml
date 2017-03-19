@@ -10,5 +10,14 @@
       <user-password>dfc7dfcbdfc4dfc5dfc0</user-password>
       <resolve-scope>noobpost:public,postgres</resolve-scope>
     </data-source>
+    <data-source name="Django default2" uuid="706adabd-46c6-4ce7-a008-ae09f0f1ae9f">
+      <database-info product="PostgreSQL" version="9.6.1" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4.1212.jre6">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <user-name>postgres</user-name>
+      <user-password>dfc7dfcbdfc4dfc5dfc0</user-password>
+      <resolve-scope>noobpost:public,postgres</resolve-scope>
+    </data-source>
   </component>
 </project>

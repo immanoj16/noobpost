@@ -1,5 +1,7 @@
 from django.shortcuts import render
+from tutorial.models import Tutorial
 
 
 def index(request):
-    return render(request, 'index.html', {})
+    tutorials = Tutorial.objects.all()
+    return render(request, 'index.html', {'tutorials': tutorials})

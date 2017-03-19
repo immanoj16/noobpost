@@ -17,5 +17,13 @@
         </library>
       </libraries>
     </data-source>
+    <data-source source="LOCAL" name="Django default2" uuid="706adabd-46c6-4ce7-a008-ae09f0f1ae9f">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/post/settings.py</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:noobpost</jdbc-url>
+    </data-source>
   </component>
 </project>
