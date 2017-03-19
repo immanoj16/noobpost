@@ -24,6 +24,9 @@
     <!-- Theme CSS -->
     <link href="{% static 'css/agency.min.css' %}" rel="stylesheet">
 
+    {% block style %}
+    {% endblock %}
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -43,7 +46,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">NoobPost</a>
+                <a class="navbar-brand page-scroll" href="/">NoobPost</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -92,9 +95,9 @@
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
+                        <li><a href="/privacy">Privacy Policy</a>
                         </li>
-                        <li><a href="#">Terms of Use</a>
+                        <li><a href="/terms">Terms of Use</a>
                         </li>
                     </ul>
                 </div>
